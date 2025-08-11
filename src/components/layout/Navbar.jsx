@@ -1,6 +1,7 @@
 // src/components/Layout/Navbar.jsx
 import { useState, useEffect } from 'react';
 import '../UI/Button.css';
+import './Navbar.css';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
